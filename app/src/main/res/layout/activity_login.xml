@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:background="#ebedef"
     android:id="@+id/relativeLayoutMain"
-    tools:context="com.webandcrafts.healwire.LoginActivity">
+    tools:context="com.webandcrafts.medisend.LoginActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayoutTitle"
@@ -20,7 +20,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_centerVertical="true"
-            android:text="Login to Healwire"
+            android:text="Login to Medisend"
             android:textColor="#ffff"
             android:textSize="15sp" />
     </RelativeLayout>
@@ -201,9 +201,9 @@
                 android:id="@+id/textViewClickHere"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBaseline="@+id/textViewNewToHealwire"
-                android:layout_alignBottom="@+id/textViewNewToHealwire"
-                android:layout_toRightOf="@+id/textViewNewToHealwire"
+                android:layout_alignBaseline="@+id/textViewNewToMedisend"
+                android:layout_alignBottom="@+id/textViewNewToMedisend"
+                android:layout_toRightOf="@+id/textViewNewToMedisend"
                 android:text=" Click here"
                 android:textColor="#04B431"
                 android:textSize="12sp" />
@@ -219,12 +219,12 @@
                 android:textSize="12sp" />
 
             <TextView
-                android:id="@+id/textViewNewToHealwire"
+                android:id="@+id/textViewNewToMedisend"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentLeft="true"
-                android:text="New to Healwire?"
+                android:text="New to Medisend?"
                 android:textSize="12sp" />
 
         </RelativeLayout>

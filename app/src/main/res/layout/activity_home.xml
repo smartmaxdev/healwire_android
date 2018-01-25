@@ -43,7 +43,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="#ebedef"
-            tools:context="com.webandcrafts.healwire.HomeActivity">
+            tools:context="com.webandcrafts.medisend.HomeActivity">
 
             <include
                 android:id="@+id/toolbar"

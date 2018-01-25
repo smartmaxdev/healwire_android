@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ebedef"
-    tools:context="com.webandcrafts.healwire.MedicineInformationActivity">
+    tools:context="com.webandcrafts.medisend.MedicineInformationActivity">
 
     <RelativeLayout
         android:id="@id/relativeLayoutTitle"

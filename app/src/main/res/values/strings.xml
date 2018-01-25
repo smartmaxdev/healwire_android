@@ -1,7 +1,7 @@
 <resources>
-    <string name="app_name">Healwire</string>
+    <string name="app_name">Medisend</string>
     <string name="Whatwedo">We try to provide medicine at cheapest price and at the right time</string>
-     <string name="Aboutus">Healwire offer a wide selection of genuine medicines based on prescriptions placed by the customers.
+     <string name="Aboutus">Medisend offer a wide selection of genuine medicines based on prescriptions placed by the customers.
          Our prime motive is to be the first choice for wellness and health needs by customarily understanding and exceeding customers expectations</string>
 
      <string name="details">Adults: 0.5-1 gm 4-6 hourly as necessary. Max: 4 gm daily.

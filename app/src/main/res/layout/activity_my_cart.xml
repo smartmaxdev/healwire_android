@@ -12,7 +12,7 @@
         android:id="@+id/relativeLayoutMain"
         android:layout_height="match_parent"
         android:background="#ebedef"
-        tools:context="com.webandcrafts.healwire.MyCartActivity">
+        tools:context="com.webandcrafts.medisend.MyCartActivity">
 
         <RelativeLayout
             android:id="@+id/relativeLayoutTitle"

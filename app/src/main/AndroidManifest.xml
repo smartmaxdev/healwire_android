@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.webandcrafts.healwire">
+    package="com.webandcrafts.medisend">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
@@ -12,7 +12,7 @@
     <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:name=".AppController"
+        android:name="com.webandcrafts.medisend.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/icon"
         android:label="@string/app_name"
@@ -21,7 +21,7 @@
 
 
         <activity
-            android:name=".SplashActivity"
+            android:name="com.webandcrafts.medisend.SplashActivity"
             android:screenOrientation="portrait">
 
             <intent-filter>
@@ -32,71 +32,71 @@
 
         </activity>
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.webandcrafts.medisend.RegisterActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.webandcrafts.medisend.ProfileActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddressDetailsActivity"
+            android:name="com.webandcrafts.medisend.AddressDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AboutusActivity"
+            android:name="com.webandcrafts.medisend.AboutusActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.webandcrafts.medisend.LoginActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ActivateAccountActivity"
+            android:name="com.webandcrafts.medisend.ActivateAccountActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".HomeActivity"
+            android:name="com.webandcrafts.medisend.HomeActivity"
             android:icon="@mipmap/ic_launcher"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MyPrescriptionActivity"
+            android:name="com.webandcrafts.medisend.MyPrescriptionActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MyOrdersActivity"
+            android:name="com.webandcrafts.medisend.MyOrdersActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MyCartActivity"
+            android:name="com.webandcrafts.medisend.MyCartActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MedicineInformationActivity"
+            android:name="com.webandcrafts.medisend.MedicineInformationActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ForgotActivity"
+            android:name="com.webandcrafts.medisend.ForgotActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ResetPasswordActivity"
+            android:name="com.webandcrafts.medisend.ResetPasswordActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TakePhotoActivity"
+            android:name="com.webandcrafts.medisend.TakePhotoActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".UploadActivity"
+            android:name="com.webandcrafts.medisend.UploadActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".CameraActivity" />
+        <activity android:name="com.webandcrafts.medisend.CameraActivity" />
         <activity
-            android:name=".AlternativesActivity"
-            android:screenOrientation="portrait" />
-        <activity
-            android:name=".MainActivity"
+            android:name="com.webandcrafts.medisend.AlternativesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".SecondActivity"
+            android:name="com.webandcrafts.medisend.MainActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".PrescriptionDetailsActivity"
+            android:name="com.webandcrafts.medisend.SecondActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".WebViewPaymentActivity"
+            android:name="com.webandcrafts.medisend.PrescriptionDetailsActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OrderDetailsActivity"
+            android:name="com.webandcrafts.medisend.WebViewPaymentActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.webandcrafts.medisend.OrderDetailsActivity"
             android:screenOrientation="portrait"></activity>
-        <activity android:name=".PaymentResponseActivity"
+        <activity android:name="com.webandcrafts.medisend.PaymentResponseActivity"
             android:screenOrientation="portrait">
 
 

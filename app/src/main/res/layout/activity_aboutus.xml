@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#ebedef"
-    tools:context="com.webandcrafts.healwire.AboutusActivity">
+    tools:context="com.webandcrafts.medisend.AboutusActivity">
 
     <RelativeLayout
         android:id="@+id/relativeLayoutTitle"
@@ -175,7 +175,7 @@
                         android:layout_toRightOf="@+id/ImageView03"
                         android:gravity="center"
                         android:paddingLeft="20dp"
-                        android:text="info@healwire.com"
+                        android:text="info@Medisend.com"
                         android:textColor="#7C7C7C"
                         android:textSize="14sp" />
 
@@ -207,7 +207,7 @@
                         android:layout_toRightOf="@+id/ImageView01"
                         android:gravity="center"
                         android:paddingLeft="20dp"
-                        android:text="info@healwire.com"
+                        android:text="info@Medisend.com"
                         android:textColor="#7C7C7C"
                         android:textSize="14sp" />
 
@@ -239,7 +239,7 @@
                         android:gravity="center|left"
                         android:paddingTop="5dp"
                         android:paddingLeft="20dp"
-                        android:text="Healwire\nSome Place\n680307"
+                        android:text="Medisend\nSome Place\n680307"
                         android:textColor="#7C7C7C"
                         android:textSize="14sp"
                         />

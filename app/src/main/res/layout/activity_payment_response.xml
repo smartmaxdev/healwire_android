@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.webandcrafts.healwire.PaymentResponseActivity">
+    tools:context="com.webandcrafts.medisend.PaymentResponseActivity">
 
 
     <RelativeLayout
@@ -40,7 +40,7 @@
                 android:ellipsize="end"
                 android:maxEms="18"
                 android:singleLine="true"
-                android:text="Healwire"
+                android:text="Medisend"
                 android:textColor="#ffffff"
                 android:textSize="18sp"
                 />
